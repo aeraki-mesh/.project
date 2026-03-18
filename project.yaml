@@ -1,0 +1,70 @@
+# .project metadata for Aeraki Mesh
+# Documentation: https://github.com/cncf/automation/tree/main/utilities/dot-project
+
+# TODO: Add maturity_log entry with TOC issue URL
+# TODO: Set project_lead GitHub handle
+# TODO: Set cncf_slack_channel
+# TODO: Set identity_type under legal (has_dco, has_cla)
+# TODO: Add adopters list (ADOPTERS.md)
+# TODO: Add package_managers if distributed via registries
+
+schema_version: "1.0.0"
+slug: "aeraki-mesh"
+name: "Aeraki Mesh"
+description: "Aeraki Mesh allows you to manage any layer-7 traffic in a service mesh"
+type: "project"
+# TODO: Set project lead GitHub handle
+# project_lead: "github-handle"
+# TODO: Set CNCF Slack channel
+# cncf_slack_channel: "#aeraki-mesh"
+
+maturity_log:
+  - phase: "sandbox"
+    date: "2026-03-18T11:21:49Z"
+    issue: "https://github.com/cncf/toc/issues/XXX" # TODO: Set TOC issue URL
+
+repositories:
+  - "https://github.com/aeraki-mesh/aeraki"
+
+website: "https://www.aeraki.net/"
+
+artwork: "https://landscape.cncf.io/logos/aeraki-mesh.svg"
+
+# TODO: Add ADOPTERS.md if your project tracks adopters
+# adopters:
+#   path: "https://github.com/aeraki-mesh/aeraki/blob/main/ADOPTERS.md"
+
+# TODO: Add package manager identifiers if your project is distributed via registries
+# package_managers:
+#   docker: "aeraki-mesh/aeraki"
+
+
+security:
+  policy:
+    path: "https://github.com/aeraki-mesh/aeraki/blob/master/SECURITY.md"
+  contact:
+    advisory_url: "https://github.com/aeraki-mesh/aeraki/security/advisories/new"
+
+governance:
+  contributing:
+    path: "https://github.com/aeraki-mesh/aeraki/blob/master/CONTRIBUTING.md"
+  code_of_conduct:
+    path: "https://github.com/aeraki-mesh/aeraki/blob/master/CODE_OF_CONDUCT.md"
+
+legal:
+  license:
+    path: "https://github.com/aeraki-mesh/aeraki/blob/master/LICENSE"
+  identity_type:
+    has_dco: true
+    has_cla: false
+    dco_url:
+      path: "https://developercertificate.org/"
+
+documentation:
+  readme:
+    path: "https://github.com/aeraki-mesh/aeraki/blob/main/README.md"
+
+landscape:
+  category: "Orchestration & Management"
+  subcategory: "Service Mesh"
+

@@ -1,0 +1,17 @@
+# Maintainer roster for Aeraki Mesh
+# Documentation: https://github.com/cncf/automation/tree/main/utilities/dot-project
+
+
+maintainers:
+  - project_id: "aeraki-mesh"
+    org: "aeraki-mesh"
+    teams:
+      - name: "project-maintainers"
+        members:
+          - huanghuangzym
+          - sad-polar-bear
+          - smwyzi
+          - tanjunchen
+          - whitefirer
+          - xunzhuo
+          - zhaohuabing
