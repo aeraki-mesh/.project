@@ -28,7 +28,7 @@ repositories:
 
 website: "https://www.aeraki.net/"
 
-artwork: "https://landscape.cncf.io/logos/aeraki-mesh.svg"
+artwork: "https://github.com/cncf/artwork/tree/main/projects/aerakimesh"
 
 # TODO: Add ADOPTERS.md if your project tracks adopters
 # adopters:
